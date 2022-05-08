@@ -1,0 +1,69 @@
+.success .flow_step {
+    height: 32px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.success .flow_step ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.success .flow_step .cols_1 .step_3, .success .flow_step .cols_2 .step_3, .success .flow_step .cols_4 .step_4, .success .flow_step .cols_3 .step_3, .success .flow_step .cols_5 .step_4, .success .flow_step .cols_6 .step_4 {
+    background-image: none;
+}
+
+.success .flow_step .cols_3 .step_3 {
+    background-color: #3164AF;
+    color: #FFFFFF;
+}
+
+.success .flow_step .cols_3 .step_1 {
+    background-color: #CEE2FF;
+    background-position: 100% 0px;
+    color: #666;
+}
+
+.success .flow_step .cols_3 .step_2 {
+    background-color: #CEE2FF;
+    background-position: 100% -32px;
+    color: #666;
+}
+
+.success .flow_step .cols_3 li {
+    width: 31.9%;
+}
+
+.success .flow_step li {
+    background: url(http://images.china-pub.com/images/shouye2012/bg_flow_step.png) no-repeat scroll 100% -64px #e6e6e6;
+    color: #666666;
+    float: left;
+    padding: 0 15px 0 0;
+    text-align: center;
+    font: 700 14px/32px "宋体";
+    line-height: 32px;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.clear {
+    clear: both;
+    _height: 0px;
+    _overflow: hidden;
+}
+
+.success_msg {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.success_msg span {
+    color: #fc7215;
+    font-size: 16px;
+}

@@ -1,0 +1,32 @@
+.fade-transform-box .card-icon-container {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.fade-transform-box .card-desc {
+    font-weight: 700;
+    float: right;
+}
+
+.fade-transform-box .card-title {
+    margin-top: 0.3rem;
+    line-height: 18px;
+    color: rgba(0, 0, 0, .45);
+    font-size: 1rem;
+}
+
+.fade-transform-box .card-count {
+    margin-top: 0.75rem;
+    color: #666;
+    font-size: 1.25rem;
+}
+
+.fade-transform-box .iconfont {
+    font-size: 60px;
+}
+
+.fade-transform-box .e-title {
+    font-size: 13px;
+    color: #202a34;
+    font-weight: 700;
+}

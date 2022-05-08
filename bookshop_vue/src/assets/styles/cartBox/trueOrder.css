@@ -1,0 +1,293 @@
+.trueOrder .flow_step {
+    height: 32px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.trueOrder .flow_step ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.trueOrder .flow_step .cols_1 .step_3, .trueOrder .flow_step .cols_2 .step_3, .trueOrder .flow_step .cols_4 .step_4, .trueOrder .flow_step .cols_3 .step_3, .trueOrder .flow_step .cols_5 .step_4, .trueOrder .flow_step .cols_6 .step_4 {
+    background-image: none;
+}
+
+.trueOrder .flow_step .cols_2 .step_2 {
+    background-color: #3164AF;
+    background-position: 100% -64px;
+    color: #FFFFFF;
+}
+
+.trueOrder .flow_step .cols_2 .step_1 {
+    background-color: #CEE2FF;
+    background-position: 100% -32px;
+    color: #666;
+}
+
+.trueOrder .flow_step .cols_2 li {
+    width: 31.9%;
+}
+
+.trueOrder .flow_step li {
+    background: url(http://images.china-pub.com/images/shouye2012/bg_flow_step.png) no-repeat scroll 100% -64px #e6e6e6;
+    color: #666666;
+    float: left;
+    padding: 0 15px 0 0;
+    text-align: center;
+    font: 700 14px/32px "宋体";
+    line-height: 32px;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.trueOrder .flow_step_title h2 {
+    float: left;
+    font-size: 16px;
+    font-family: "宋体";
+    line-height: 32px;
+}
+
+.clear {
+    clear: both;
+    _height: 0px;
+    _overflow: hidden;
+}
+
+.trueOrder .flow_order_list table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-width: 1px 0 0 1px;
+}
+
+.trueOrder .flow_order_list table td, .trueOrder .flow_order_list table th {
+    border: solid 1px #ddd;
+    border-width: 0 1px 1px 0;
+    line-height: 25px;
+}
+
+.trueOrder .flow_order_list .con_title {
+    background: #e4f0fe;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.trueOrder .flow_order_list .con_title span {
+    float: right;
+    display: inline;
+    padding-right: 15px;
+    _margin-top: -30px;
+}
+
+.trueOrder .flow_order_list .con_title a {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.trueOrder .flow_order_list .pro_list {
+    line-height: 25px;
+    margin: 10px;
+}
+
+.trueOrder .flow_order_list .pro_list table {
+    text-align: center;
+}
+
+.trueOrder .flow_order_list .pro_list table th {
+    background: #fff8e7;
+    color: #666;
+}
+
+.trueOrder .flow_order_list .pro_list table .cart_book_n {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.trueOrder .flow_order_list .con_title a {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.trueOrder .flow_order_list p.normal_address {
+    margin: 10px 15px;
+}
+
+.trueOrder .flow_order_list p.normal_address span {
+    padding-right: 15px;
+}
+
+.trueOrder .flow_order_list .delive_infor, .trueOrder .flow_order_list .pay_type {
+    margin: 10px;
+}
+
+.trueOrder .flow_order_list .delive_infor table {
+    width: 100%;
+}
+
+.trueOrder .flow_order_list .address_useful_add table, .trueOrder .flow_order_list .address_useful_add table td, .trueOrder .flow_order_list .delive_infor table, .trueOrder .flow_order_list .delive_infor table td, .trueOrder .flow_order_list .address_useful table, .trueOrder .flow_order_list .address_useful table td, .trueOrder .flow_order_list .pay_type table, .trueOrder .flow_order_list .pay_type table td, .trueOrder .flow_order_list .bal_proces table, .trueOrder .flow_order_list .bal_proces table td, .trueOrder .flow_order_list .inv_a_pos table, .trueOrder .flow_order_list .inv_a_pos table td, .trueOrder .flow_order_list .checkout_list table td {
+    border: 0;
+}
+
+.trueOrder .flow_order_list .delive_infor .send_time {
+    margin-left: 50px;
+}
+
+.trueOrder .flow_order_list .delive_infor .send_time p {
+    color: #666;
+    font-weight: bold;
+}
+
+.trueOrder .flow_order_list table td em {
+    color: #666;
+    margin-left: 5px;
+}
+
+.trueOrder .flow_order_list .delive_infor .del_name {
+    width: 200px;
+    text-align: left;
+}
+
+.trueOrder .flow_order_list .delive_infor .del_price {
+    width: 80px;
+    text-align: left;
+    color: #666;
+}
+
+.trueOrder .flow_order_list .delive_infor .del_inf {
+    width: 500px;
+    text-align: left;
+    color: #666;
+}
+
+.trueOrder .flow_order_list .delive_infor .del_other {
+    width: 100px;
+}
+
+.trueOrder .flow_order_list .address_get, .trueOrder .flow_order_list .address_quit {
+    float: left;
+    display: inline;
+    height: 32px;
+    margin-left: 15px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.trueOrder .flow_order_list a.address_get {
+    background: url(http://images.china-pub.com/images/shouye2012/address_get.jpg) no-repeat;
+    width: 126px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.trueOrder .flow_order_list a.address_quit {
+    background: url(http://images.china-pub.com/images/shouye2012/address_quit.jpg) no-repeat;
+    width: 99px;
+    color: #000;
+}
+
+.trueOrder .flow_order_list .checkout_list {
+    margin: 0 10px 10px;
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.trueOrder .flow_order_list .checkout_list table {
+    width: 183px;
+    float: right;
+    margin-right: 65px;
+    border: 0;
+}
+
+.clear {
+    clear: both;
+    _height: 0px;
+    _overflow: hidden;
+}
+
+.trueOrder .flow_order_list .checkout_list .check_l_t {
+    background: url(http://images.china-pub.com/images/shouye2012/check_l_t.jpg) no-repeat;
+    width: 183px;
+    height: 10px;
+}
+
+.trueOrder .flow_order_list .checkout_list .check_l_c {
+    background: url(http://images.china-pub.com/images/shouye2012/check_l_c.jpg) repeat-y;
+}
+
+.trueOrder .flow_order_list .checkout_list .check_l_b {
+    background: url(http://images.china-pub.com/images/shouye2012/check_l_b.jpg) no-repeat;
+    width: 183px;
+    height: 20px;
+}
+
+.trueOrder .flow_order_list .checkout_list h2 {
+    text-align: right;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 55px;
+}
+
+.trueOrder .flow_order_list .checkout_list h2 span {
+    font-size: 20px;
+    color: #fc7215;
+    font-weight: bold;
+}
+
+.trueOrder .flow_order_list .checkout_list p {
+    text-align: right;
+    padding-right: 200px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.trueOrder .flow_order_list .checkout_list .check_end {
+    width: 138px;
+    height: 40px;
+    text-align: center;
+    font-family: 微软雅黑, 黑体;
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: -55px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 40px;
+    background: rgb(252, 114, 21);
+    border-radius: 8px;
+}
+
+.trueOrder .address_table {
+    width: 70%;
+    position: relative;
+    margin: 10px;
+}
+
+.trueOrder .address_table .el-table {
+    width: 100%;
+    position: relative;
+}
+
+.trueOrder .address_table .el-table table {
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.trueOrder .address_table .el-table table th, .trueOrder .address_table .el-table table td {
+    display: table-cell;
+    vertical-align: inherit;
+    border: solid 0px #ddd;
+    border-bottom: 1px solid #EBEEF5;
+}

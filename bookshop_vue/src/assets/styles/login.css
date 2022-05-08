@@ -1,0 +1,200 @@
+/* 盒子样式 */
+.container {
+    position: relative;
+    width: 45vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2), 0 .5rem .5rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+/* 将两个form表单设置绝对定位 */
+.container-form {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all .5s ease-in-out;
+}
+
+/* 设置注册页样式 */
+.container-signup {
+    left: 0;
+    width: 50%;
+    z-index: 1;
+    opacity: 0;
+}
+
+/* 设置登录页样式 */
+.container-signin {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+    opacity: 1;
+}
+
+/* 默认显示signup注册页，通过操作switch类名 显示登录页 */
+.container.switch .container-signup {
+    transform: translateX(100%);
+    z-index: 5;
+    opacity: 1;
+}
+
+.container.switch .container-signin {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+/* 设置覆盖层 */
+.container-overlay {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transform: translateX(0);
+    transition: transform .5s ease-in-out;
+    z-index: 999;
+}
+
+/* 设置显示背景图 */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: url('../../../public/images/background_05.png') no-repeat fixed center;
+    background-size: cover;
+    transition: transform .5s ease-in-out;
+    /* 完工！ */
+}
+
+/* 默认左边显示 通过操作switch类名显示登录页 */
+.container.switch .container-overlay {
+    transform: translateX(-100%);
+}
+
+.container.switch .overlay {
+    transform: translateX(50%);
+}
+
+/* 设置切换按钮页样式 */
+.overlay-slide {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    transition: transform .5s ease-in-out;
+}
+
+/* 这里的意思就是让按钮跟随页面一起进行移动 如果不加会有点难看 */
+.overlay-left {
+    transform: translateX(-20%);
+}
+
+.overlay-right {
+    transform: translateX(0);
+    right: 0;
+}
+
+.container.switch .overlay-left {
+    transform: translateX(0);
+}
+
+.container.switch .overlay-right {
+    transform: translateX(20%);
+}
+
+/* 设置表单内元素样式 */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+/* 设置input标签样式 */
+.input {
+    width: 100%;
+    margin: 0.5rem 0px;
+    /*height: 45px;*/
+    border-radius: 5px;
+}
+
+/* 设置表单标题样式 */
+.form-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+/* 设置按钮样式 */
+.submit {
+    padding: 0px 3rem;
+    height: 45px;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, rgb(243, 144, 79), rgb(59, 67, 113));
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform .1s ease-in-out;
+    outline: none;
+    border: none;
+}
+
+/* 偷偷添加个小手  对了！ */
+/* 只设置表单按钮的外边距 */
+.form > .submit {
+    margin-top: 0rem;
+}
+
+/* 设置按钮按下样式 */
+.submit:active {
+    transform: scale(0.95);
+}
+
+.container .el-button.is-plain:focus, .el-button.is-plain:hover {
+    background: linear-gradient(to right, rgb(243, 144, 79), rgb(59, 67, 113));
+    color: #fff;
+}
+
+.container .el-button.is-plain:focus, .el-button.is-plain:hover {
+    background: linear-gradient(to right, rgb(243, 144, 79), rgb(59, 67, 113));
+}
+
+.container #singUp_Code {
+    width: 35%;
+    height: 45px;
+    margin: 0.5rem 0 0.5rem 0.8rem;
+    padding: 1rem;
+    font-size: 9px;
+    font-weight: 400;
+    background: -webkit-linear-gradient(to right, rgb(243, 144, 79), rgb(59, 67, 113)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(243, 144, 79), rgb(59, 67, 113));
+    border-radius: 0.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    transition: transform .1s ease-in-out;
+    outline: none;
+    border: none;
+}
+
+.container #code {
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.container #singUp_Code:active {
+    transform: scale(0.95);
+}
+
+.el-message {
+    border: 1px dashed blue;
+}

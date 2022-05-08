@@ -1,0 +1,191 @@
+.myCart .flow_step {
+    height: 32px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.myCart .flow_step ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.myCart .flow_step .cols_1 .step_3 {
+    background-image: none;
+}
+
+.myCart .flow_step .cols_1 .step_1 {
+    background-color: #3164AF;
+    background-position: 100% -64px;
+    color: #FFFFFF;
+}
+
+.myCart .flow_step li {
+    width: 21.3rem;
+    background: url(http://images.china-pub.com/images/shouye2012/bg_flow_step.png) no-repeat scroll 100% -64px #e6e6e6;
+    color: #666666;
+    float: left;
+    padding: 0 15px 0 0;
+    text-align: center;
+    font: 700 14px/32px "宋体";
+    line-height: 32px;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.myCart .flow_step_title h2 {
+    float: left;
+    font-size: 16px;
+    font-family: "宋体";
+    line-height: 32px;
+}
+
+.myCart .flow_pro_list table {
+    width: 100%;
+    border-right: 1px solid #ddd;
+    border-top: 3px solid #3164AF;
+    text-align: center;
+
+}
+
+.myCart .flow_pro_list table {
+    width: 100%;
+    border-right: 1px solid #ddd;
+    border-top: 3px solid #3164AF;
+    text-align: center;
+
+}
+
+.myCart .flow_pro_list table th {
+    height: 37px;
+    line-height: 37px;
+    background: url(http://images.china-pub.com/images/shouye2012/flow_pro_bg.jpg) repeat-x;
+}
+
+.myCart .flow_pro_list table td, .flow_pro_list table th {
+    border: 1px solid #ddd;
+    border-width: 0 0 1px 1px;
+}
+
+.myCart .flow_pro_list table td {
+    padding: 5px;
+}
+
+
+.myCart .flow_pro_list .pro_clear {
+    float: right;
+    display: inline;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.myCart .flow_pro_list .pro_choose {
+    float: left;
+    display: inline;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.myCart a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.myCart .flow_buy_goon, .myCart .flow_clear {
+    float: right;
+    width: 104px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.myCart .flow_clear {
+    /* background: url(http://images.china-pub.com/images/shouye2012/go_shop_cart.gif) no-repeat; */
+    background: #fc7215;
+    border-radius: 8px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFF;
+    font-family: "微软雅黑";
+    line-height: 30px;
+}
+
+.myCart .flow_buy_goon {
+    background: url(http://images.china-pub.com/images/shouye2012/shop_go_on.gif) no-repeat;
+    margin-right: 10px;
+}
+
+.myCart .cart_book ul {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+.myCart .flow_pro_list .cart_book li {
+    float: left;
+    display: inline;
+    vertical-align: middle;
+}
+
+.myCart .flow_pro_list .cart_book .cart_book_name {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.myCart .flow_pro_list .pro_clear span {
+    font-size: 14px;
+    color: #000;
+}
+
+.myCart .flow_pro_list .pro_clear span.cart_all_p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fc7215;
+}
+
+.myCart .flow_pro_list .cart_book .cart_book_name a {
+    color: #069;
+    font-size: 13px;
+    margin-left: 1rem;
+}
+
+.myCart .book_price {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.myCart .book_dis {
+    color: #f63;
+    margin-left: 15px;
+}
+
+.myCart .el-input-number__decrease, .el-input-number__increase {
+    width: 15px;
+}
+
+.clear {
+    clear: both;
+    _height: 0px;
+    _overflow: hidden;
+}
+
+.myCart .el-input-number {
+    width: 70px;
+    height: 27px;
+    line-height: 25px;
+}
+
+.myCart .el-input-number .el-input .el-input__inner {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 27px;
+    line-height: 25px;
+}

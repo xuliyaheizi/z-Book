@@ -1,0 +1,162 @@
+/*头部导航栏*/
+.book .el-header, .el-footer {
+    color: #333;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+/*内容*/
+.book .book_main .el-container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.book .el-main {
+    color: #333;
+    padding: 0px 0px 0px 20px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.book .pro_book {
+    margin-top: 10px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.book .pro_book_header {
+    line-height: 27px;
+    width: 100%;
+    height: 70px;
+}
+
+.book .pro_book h1 {
+    font-size: 15px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
+
+.book .pro_book .pro_name_intr {
+    color: #f60;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #dcdcdc;
+    font-size: 12px;
+}
+
+.book .pro_book_info {
+    width: 100%;
+    height: 220px;
+}
+
+.book .pro_book_img {
+    text-align: center;
+    width: 330px;
+    float: left;
+    height: 210px;
+}
+
+.book .pro_buy_intr {
+    float: left;
+    width: 450px;
+    margin: 50px 0px 0px 10px;
+}
+
+.book .pro_buy_intr ul {
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.book .pro_buy_intr ul li {
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 0px;
+}
+
+.book .pro_buy_intr .pro_buy_bg #book_num {
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 10px;
+}
+
+.book .pro_buy_pri {
+    text-decoration: line-through;
+}
+
+.book .pro_buy_sen {
+    color: #f63;
+    font-weight: bold;
+}
+
+.book .el-input-number__decrease, .el-input-number__increase {
+    width: 15px;
+}
+
+.book .el-input-number {
+    width: 70px;
+    height: 27px;
+    line-height: 25px;
+}
+
+.book .pro_buy_bg .el-input-number .el-input .el-input__inner {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 27px;
+    line-height: 25px;
+}
+
+.book #bugbook {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.book .book_details {
+    margin-top: 15px;
+    width: 100%;
+    float: left;
+    padding-left: 10px;
+}
+
+.book .book_basic_info h3 {
+    background-color: #E4F0FE;
+    margin: 5px 0px;
+}
+
+.book .book_basic_info ul {
+    list-style: none;
+    padding: 0px 10px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.book .book_abstract h3 {
+    background-color: #E4F0FE;
+    margin: 5px 0px;
+}
+
+.book .book_description h3 {
+    background-color: #E4F0FE;
+    margin: 5px 0px;
+}
+
+.book .book_desc {
+    width: 99%;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.book .shop_pro_pro {
+    background: url(http://images.china-pub.com/images/shouye2012/ver_s.jpg) no-repeat 5px;
+    padding-left: 45px;
+    margin: 15px 25px 0;
+}
+
+.book .shop_up_dis {
+    color: #f63;
+    font-weight: bold;
+}
+
+

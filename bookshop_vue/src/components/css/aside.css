@@ -1,0 +1,19 @@
+/*侧边栏*/
+.book_aside .el-aside {
+    color: #333;
+    overflow: hidden;
+}
+
+.book_aside .el-aside h2 {
+    margin-left: 10%;
+}
+
+.book_aside .el-submenu__title {
+    height: 40px;
+    line-height: 40px;
+}
+
+.book_aside .el-submenu .el-menu-item {
+    height: 35px;
+    line-height: 35px;
+}

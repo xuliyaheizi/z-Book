@@ -1,0 +1,71 @@
+.back_body {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.back_body #app {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.back_stage .el-menu-vertical-demo {
+    width: 210px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.back_stage ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 1px;
+}
+
+.back_stage ::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: rgba(144, 147, 153, .3);
+}
+
+.back_stage .el-aside .el-menu-item, .el-submenu__title {
+    font-size: 16px;
+}
+
+
+.back_stage .el-aside .el-menu-vertical-demo.el-menu--collapse {
+    width: 64px;
+}
+
+.back_stage .el-aside .el-menu-item:hover, .el-submenu__title:hover {
+    border-left: rgb(38, 52, 69) solid 6px !important;
+    background-color: rgb(38, 52, 69) !important;
+}
+
+/*main_header*/
+.back_stage .el-container.main-container.is-vertical {
+    transition: margin-left .45s;
+    margin-left: 210px;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.back_stage .el-container.main-container.is-vertical.hideSideBar {
+    margin-left: 64px;
+}
+
+.back_stage .nav-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 30px;
+    height: 50px;
+    border-bottom: 1px solid #d8dce5;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%), 0 0 3px 0 rgb(0 0 0 / 4%);
+}
+
+.back_stage .nav-bar .hambuger-container {
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-right: 24px;
+}

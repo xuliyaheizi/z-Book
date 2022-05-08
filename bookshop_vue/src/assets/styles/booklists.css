@@ -1,0 +1,104 @@
+/*头部导航栏*/
+.bookLists .el-header, .el-footer {
+    color: #333;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+/*搜索结果*/
+.bookLists .book_resources {
+    width: 100%;
+}
+
+/*内容*/
+.bookLists .bookLists_main .el-container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.bookLists .el-main {
+    color: #333;
+    text-align: center;
+    padding: 0px 0px 0px 20px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.bookLists .book_resources .resources table {
+    width: 95%;
+    padding: 15px 10%;
+    margin: 10px 0px;
+    background-color: #FFF;
+    border: 1px solid #EBEEF5;
+    transition: .3s;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px 0 #dfd3d3;
+}
+
+.bookLists .book_resources .resources ul {
+    list-style: none;
+    margin: 10px 0px;
+    padding: 0px 0px 0px 40px;
+    font-size: 14px;
+}
+
+.bookLists .book_resources .resources ul li {
+    line-height: 30px;
+}
+
+.bookLists .book_resources .resources ul li a span {
+    color: #FC7215;
+}
+
+.bookLists .book_resources .resources ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #0074e4;
+}
+
+.bookLists .book_resources .resources ul li ul {
+    margin: 0px 0px;
+}
+
+.bookLists .book_resources .resources ul li p {
+    margin: 0px 0px;
+}
+
+.bookLists .book_resources .resources ul li .el-icon-s-finance {
+    float: left;
+    line-height: 30px;
+    width: 20px;
+}
+
+.bookLists .el-rate {
+}
+
+.bookLists .book_icon {
+    float: left;
+}
+
+.bookLists .book_dis {
+    float: left;
+    color: #FB751B;
+    width: 150px;
+}
+
+.bookLists .book_price {
+    float: left;
+    width: 100px;
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.bookLists .book_opera {
+    float: left;
+
+}
+
+.bookLists .book_resources ul li ul li a {
+    color: #ff5335;
+}
+
+.bookLists .book_opera .book_buy {
+    margin-left: 30px;
+}

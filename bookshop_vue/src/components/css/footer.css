@@ -1,0 +1,14 @@
+.book_footer {
+    height: 60px;
+    background-color: #f9f7f7;
+}
+
+.book_footer .info {
+    font-size: 13px;
+    padding-top: 30px;
+}
+
+.book_footer span a {
+    text-decoration: none;
+    color: #e84545;
+}

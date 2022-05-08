@@ -1,0 +1,21 @@
+.book_cart .el-header, .el-footer {
+    color: #333;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.book_cart .el-main {
+    color: #333;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: "宋体";
+}
+
+.book_cart .main {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.cart_box {
+    padding-bottom: 10px;
+}
