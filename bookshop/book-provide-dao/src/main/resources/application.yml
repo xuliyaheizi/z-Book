@@ -1,0 +1,91 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: book-provide-dao
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #本地mysql
+    #    url: jdbc:mysql://localhost:3306/bookshop?serverTimezone=UTC&useSSL=false
+    #    username: root
+    #    password: a
+    #服务器mysql
+    url: jdbc:mysql://zhulinz.top:3306/bookshop?serverTimezone=UTC&useSSL=false
+    username: zhulin
+    password: zhulin0804
+    #   数据源其他配置
+    initialSize: 10
+    minIdle: 1
+    maxActive: 10
+    maxWait: 10000
+    timeBetweenEvictionRunsMillis: 6000
+    minEvictableIdleTimeMillis: 300000
+    testWhileIdle: true
+    testOnBorrow: true
+    testOnReturn: true
+
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    validationQuery: select 1
+    #    stat 监控统计,wall 防止sql注入,log4j   （yml 要配置，不然会报错）  日志统计
+    filters: stat,wall,log4j
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  #redis配置
+  redis:
+    #服务器配置
+    host: zhulinz.top
+    password: 123456
+    port: 4030
+    #本地配置
+    #    host: 127.0.0.1
+    #    password: 123456
+    #    port: 6379
+    timeout: 1000
+    jedis:
+      pool:
+        min-idle: 5
+        max-idle: 10
+        max-wait: -1
+
+##oss
+aliYun:
+  oss:
+    # oss对外服务的访问域名
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    # 访问身份验证中用到用户标识
+    accessKeyId: LTAI5tPs4eRpZ3wXQjkm9z27
+    # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
+    accessKeySecret: FpvI2PAHkHwTvk5H0bIgauPrOZ1Zp6
+    # oss的存储空间
+    bucketName: xiaoheizi
+    # 上传文件大小(M)
+    maxSize: 3
+    # 上传文件夹路径前缀
+    dir:
+      prefix: zhulin/images/
+
+##支付宝相关参数
+alipay:
+  #应用id
+  app-id: 2021000119632008
+  #卖家支付宝id
+  seller-id: 2088621958010345
+  #支付宝网关
+  gateway-url: https://openapi.alipaydev.com/gateway.do
+  #商户密钥
+  merchant-private-key: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCT3LOuNU0wyQh3MUpK/UL3nt6k2tGFvIA2m1Nzl+vxYD/2/+UrFSogQ9zxtFX5DyxCNYshdyQsA1On7OOIwKoKC4JzP1syIs5xeW9ZPXx812Vb9/n6a+gnZia3K2PnX3fWL4/Z9qEc5N31BvwsY2nffcy9z5dQ7lqbBD6t3QpwPfq67XrilhO6yMTLv8Q3u+J7LGLBRq2NDmEKbWose3JSzUgVcm9jtk78iPng0gSIPdl1PGDLwM+Cp5WGCq671PbUkaVsns38FnKm6UIx24Pj4XEd79FwYIDODyorNWl6+glBNEtZkeh7CaXBgNAdpBsPUbhUSoaAmrvFnGohAozXAgMBAAECggEAVuTSq0QjstHRqcpLsLoZStAQY608iG14o56wcjQLsnQv4wYLNUBg20lGZLzn8U/bYKV6uBX+KedimEL8jHc89l5BMV1ASLxvufv1VepuaCdlJ6EZRPN5IP5FLkvPkD9oe3TEAwGPOR2+2qpaM/PQWkjhs4J1mFga4xKhiydlZQP9jPKO/7D+jX4l+rDXPEvM7yPUAj/vblvgkRUhADAnwIOnztM3UwjPoVtG4M/f0adnmzJUYZZdMfc/QiyQsyTXnz3y430og7CE6bdGR4Da0jJ00rb/imX9QpwKzt7YyytPWMX49WAwBLFYQDJtyupsVKNROPMeeREa9q9pG58h8QKBgQDxD6k63TazFshLVCCW4gTKa/rAsxkCD2eXa7Chz1CMKV5DvwyRvpT86UfArhwKezLbiXvS3Sn2SZaqD2c8r2Y4wUBEAFTCgKLkj6veqD7Kjp1B9IAhrdjMf9NOQtgQ4wHxVohvmmxJWE3L96RWGXagi/pKTBgfqRAGqoLwKMhdQwKBgQCdBnmgFK/o/hpf25KrBVH/zhofMKZXJw9TC7Iscdhbm9TRuXvMuGRe1hID7dEolSaU4c8MK810XDLncHHXHEgsAHu75Dnn9JQHKA4n3pekv0bFDkPJ3BjqXia2XBcM4owJldkBknIDIFTzLs9y3lrsCR67fl0hzkCRPYqbzxgu3QKBgGK/9qRdgI3mtFBfeyY0GqBNkaAk/gahBt+5xtbSVX3FaI86EU0XFHNyoOkmqegFRfU3Idlkrk7tIGI0AyeR9r8jM09oD1DKX3BgBpkktOxHddZR8bdaPyiu6IHz0g1A4UfbGfMWAGwfV2dJ4DFBJx5nmTWcbHlzyVPhv9ff7Qx/AoGAKPxRrrj3mWcJ109mnwEKgCx5oP5/zGvDkjeRUAx/Hpo0GHHDoJHYkPBrT185otAbe+zcsB6Wx/JwzvwIms8k/2c45LgTbTnnkV6hI0L0beoHPNQWWY/7aOEeVab/1TsktjPIqqJg4/QCeF8VgrQLI2TWArZe9L3zGHXpwfVyKHkCgYEAn6p4OPCvJsx9y3YR6a/JdITms4rl5P1gZoqHSTsZx0TEk/8f+MuK7g7ESu3eJsC4DtDTQb4O7Y0rlXLH3wMv41oIlD/L0SQq40rmMJZMudF0SicfpOmNbPM2sj8sg3eKoT00DAokaaqPhabuWeH2OJEuCGimf3fjY+qla/Uaeho=
+  #支付宝公钥
+  alipay-public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzHYxbf3Kr3Z+ilDSwrYPiW0L6ywPQPAsDeGYjiLcRw6mwHohKzJo1a1UPZb0ld1aOl79VeeVk5fY4QTqNfHRqOpPoWxpkIMmNkpN7iI3lVFrW6x1F0EM1NrIgVz4cy8cfx3GZudRlfeEFZG4/fQL8Piy/ZQ88T2GPhlOXYWnnwXX3UAcxPJv9Jg90ZwB4Jo28nMiqLgoxfMVV1wcuWM2CtpKpW0RovAEL9cOAj/OnqLOrq+DHiup2q0coIy3cxv6Pcj1dtQV0u58mFmhOwT0nkt6LuXmHh4yGqtSC0gAPh4zoPjGX9jNFoNDe73RqwjaqV3HKPHFvj+1xPuM1TxgSwIDAQAB
+  #接口加密密钥
+  content-key: ZkBq+l0a4HwSMsqm2v2qng==
+  return-url: http://zhulinz.top/bookCart/successOrder
+  notify-url: http://zhulinz.top:8001/provide/trade/notify
+
+
+
+

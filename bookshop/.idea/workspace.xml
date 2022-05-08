@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="102ec283-84e0-43ec-b713-12f44e067f58" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Apps\DeveloperKits\MavenRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Apps/DeveloperKits/Maven_3.8.4" />
+        <option name="userSettingsFile" value="D:\Apps\DeveloperKits\Maven_3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="27EWKVaMzrumWRxUdAJiiSkgaYD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/信息设计/bookshop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "spring.configuration.checksum": "906944bd79e7eea228af8ce309e4d936",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\信息设计\bookshop\book-commons-api\src\main\java\com\zhulin" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.zhulin.service.impl" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zhulin.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhulin.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BookDaoImplTest.contextLoads">
+    <configuration name="BookDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-provide-dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhulin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhulin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zhulin.test.BookDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoImplTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-provide-dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhulin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhulin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zhulin.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="book-consumer-main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhulin.BookMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhulin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookProvideDao" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="book-provide-dao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhulin.BookProvideDao" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookdao" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="book-provide-dao:1.0" />
+          <option name="command" value="" />
+          <option name="containerName" value="bookdao" />
+          <option name="entrypoint" value="" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9001" />
+                <option name="hostPort" value="8001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="bookmain" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="book-consumer-main:1.0" />
+          <option name="command" value="" />
+          <option name="containerName" value="bookmain" />
+          <option name="entrypoint" value="" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9002" />
+                <option name="hostPort" value="8002" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.bookdao" />
+        <item itemvalue="Docker.bookmain" />
+        <item itemvalue="Spring Boot.BookMain" />
+        <item itemvalue="JUnit.BookDaoImplTest.contextLoads" />
+        <item itemvalue="JUnit.BookDaoImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="项目级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="" name="Default Changelist" comment="" />
+      <changelist id="" name="New changelist" comment="" />
+      <created>1648885661456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648885661456</updated>
+      <workItem from="1648885664596" duration="7000" />
+      <workItem from="1648885733860" duration="24000" />
+      <workItem from="1649169326739" duration="2802000" />
+      <workItem from="1649172165549" duration="3162000" />
+      <workItem from="1649175865577" duration="669000" />
+      <workItem from="1649176546889" duration="12983000" />
+      <workItem from="1649327746041" duration="846000" />
+      <workItem from="1649332073005" duration="355000" />
+      <workItem from="1649332463830" duration="182000" />
+      <workItem from="1649332667179" duration="5736000" />
+      <workItem from="1649379660589" duration="5595000" />
+      <workItem from="1649412807216" duration="3145000" />
+      <workItem from="1649426008056" duration="3830000" />
+      <workItem from="1649468742331" duration="1267000" />
+      <workItem from="1649482987848" duration="877000" />
+      <workItem from="1649485603055" duration="26000" />
+      <workItem from="1649504610333" duration="1093000" />
+      <workItem from="1649515633653" duration="1501000" />
+      <workItem from="1649550186601" duration="136000" />
+      <workItem from="1649552262912" duration="2352000" />
+      <workItem from="1649571824948" duration="17547000" />
+      <workItem from="1649599061810" duration="19730000" />
+      <workItem from="1649732120222" duration="672000" />
+      <workItem from="1649741231804" duration="1466000" />
+      <workItem from="1649847462425" duration="1654000" />
+      <workItem from="1649860532450" duration="4382000" />
+      <workItem from="1649941670195" duration="1101000" />
+      <workItem from="1649943141609" duration="2542000" />
+      <workItem from="1650002788709" duration="731000" />
+      <workItem from="1650018187203" duration="21000" />
+      <workItem from="1650033324993" duration="9859000" />
+      <workItem from="1650074183227" duration="2362000" />
+      <workItem from="1650097485147" duration="12444000" />
+      <workItem from="1650205024425" duration="612000" />
+      <workItem from="1650272479908" duration="4897000" />
+      <workItem from="1650363842535" duration="8387000" />
+      <workItem from="1650376171578" duration="1813000" />
+      <workItem from="1650378072436" duration="4140000" />
+      <workItem from="1650457772445" duration="1249000" />
+      <workItem from="1650790588561" duration="1633000" />
+      <workItem from="1650793712257" duration="10494000" />
+      <workItem from="1650890814580" duration="63000" />
+      <workItem from="1650891031713" duration="5000" />
+      <workItem from="1650893669105" duration="402000" />
+      <workItem from="1650894089724" duration="106000" />
+      <workItem from="1650901192475" duration="370000" />
+      <workItem from="1650901942009" duration="151000" />
+      <workItem from="1650902114835" duration="411000" />
+      <workItem from="1650968992389" duration="692000" />
+      <workItem from="1650969715650" duration="4259000" />
+      <workItem from="1650983809591" duration="15442000" />
+      <workItem from="1651068076540" duration="12385000" />
+      <workItem from="1651156116529" duration="3786000" />
+      <workItem from="1651219671749" duration="8124000" />
+      <workItem from="1651284507450" duration="140000" />
+      <workItem from="1651285153095" duration="8438000" />
+      <workItem from="1651297323134" duration="3142000" />
+      <workItem from="1651301440812" duration="191000" />
+      <workItem from="1651301764138" duration="5000" />
+      <workItem from="1651316371397" duration="8582000" />
+      <workItem from="1651327049591" duration="5126000" />
+      <workItem from="1651387547390" duration="7935000" />
+      <workItem from="1651484640780" duration="9094000" />
+      <workItem from="1651496535219" duration="1729000" />
+      <workItem from="1651546165946" duration="40000" />
+      <workItem from="1651640112334" duration="95000" />
+      <workItem from="1651748575547" duration="154000" />
+      <workItem from="1651748749506" duration="5329000" />
+      <workItem from="1651816362287" duration="5169000" />
+      <workItem from="1651922331119" duration="1301000" />
+      <workItem from="1651970468817" duration="2497000" />
+      <workItem from="1651973428028" duration="948000" />
+    </task>
+    <task id="LOCAL-00001" summary="首次提交项目">
+      <created>1651970637284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651970637284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.yml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="b8c0b7b2-4d14-4615-b4db-2def52d8c636">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b8c0b7b2-4d14-4615-b4db-2def52d8c636" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="首次提交项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交项目" />
+  </component>
+</project>
