@@ -12,9 +12,9 @@ spring:
     #    username: root
     #    password: a
     #服务器mysql
-    url: jdbc:mysql://zhulinz.top:3306/bookshop?serverTimezone=UTC&useSSL=false
-    username: zhulin
-    password: zhulin0804
+    url: 
+    username: 
+    password: 
     #   数据源其他配置
     initialSize: 10
     minIdle: 1
@@ -38,13 +38,9 @@ spring:
   #redis配置
   redis:
     #服务器配置
-    host: zhulinz.top
-    password: 123456
-    port: 4030
-    #本地配置
-    #    host: 127.0.0.1
-    #    password: 123456
-    #    port: 6379
+    host: 
+    password: 
+    port: 
     timeout: 1000
     jedis:
       pool:
@@ -56,18 +52,18 @@ spring:
 aliYun:
   oss:
     # oss对外服务的访问域名
-    endpoint: oss-cn-guangzhou.aliyuncs.com
+    endpoint: "个人Oss地址"
     # 访问身份验证中用到用户标识
-    accessKeyId: LTAI5tPs4eRpZ3wXQjkm9z27
+    accessKeyId: "个人accessKeyId"
     # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
-    accessKeySecret: FpvI2PAHkHwTvk5H0bIgauPrOZ1Zp6
+    accessKeySecret: "个人accessKeySecret"
     # oss的存储空间
-    bucketName: xiaoheizi
+    bucketName: "个人的存储地址"
     # 上传文件大小(M)
     maxSize: 3
     # 上传文件夹路径前缀
     dir:
-      prefix: zhulin/images/
+      prefix: 
 
 ##支付宝相关参数
 alipay:
