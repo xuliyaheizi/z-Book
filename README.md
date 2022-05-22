@@ -1,7 +1,5 @@
 # zBook
 
-### 技术架构：Springboot、Zookeeper、Shiro+Jwt、Mybatis-plus、Vue2、Element UI、Docker、Swagger+Knife4j 
-
 ### 项目地址：http://zhulinz.top 		
 ### 开源地址：https://gitee.com/xuliyaheizi/z-book.git 
 
@@ -14,4 +12,14 @@
 - 为实现对多个数据库配置的管理，将数据库配置信息保存在zookeeper的节点中，实现可在项目上线期间更换数据库。 
 - 整合swagger+knife4j生成项目接口文档。 
 - 调用第三方接口发送验证码，支持用户使用支付宝进行购物车支付。
+
+### 技术栈：
+- Springboot
+- Zookeeper
+- Shiro+Jwt
+- Mybatis-plus
+- Vue2
+- Element UI
+- Docker
+- Swagger+Knife4j 
 
